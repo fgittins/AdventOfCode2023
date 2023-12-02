@@ -1,6 +1,6 @@
 using DelimitedFiles
 
-lines = readdlm("Day1/input.txt", String)
+lines = readdlm("day1/input.txt", String)
 
 Base.:(<)(::AbstractVector, ::Nothing) = true
 Base.:(<)(::Nothing, ::AbstractVector) = false
