@@ -17,13 +17,10 @@ function calculate_card_instances(lines)
     n = length(lines)
     instances = ones(Int64, n)
     for i = 1:n
-        line = lines[i]
-        matching_nums = calculate_matching_nums_from_card(line)
+        matching_nums = calculate_matching_nums_from_card(lines[i])
         if matching_nums != 0
-            for instance = 1:instances[i]
-                for j = i+1:i+matching_nums
-                    instances[j] += 1
-                end
+            for j = i+1:i+matching_nums
+                instances[j] += instances[i]
             end
         end
     end
