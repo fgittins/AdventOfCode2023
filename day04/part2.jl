@@ -27,5 +27,5 @@ function calculate_card_instances(lines)
     instances
 end
 
-lines = readlines("day4/input.txt")
+lines = readlines("day04/input.txt")
 sum(calculate_card_instances(lines))

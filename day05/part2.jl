@@ -59,7 +59,7 @@ function seed_ranges_to_loc_ranges(seed_ranges, maps)
     loc_ranges = seed_ranges
 end
 
-seeds, maps = read_input("day5/input.txt")
+seeds, maps = read_input("day05/input.txt")
 seed_ranges = broadcast(:, seeds[1:2:end], seeds[1:2:end] .+ seeds[2:2:end] .- 1)
 loc_ranges = seed_ranges_to_loc_ranges(seed_ranges, maps)
 minimum([x[1] for x in loc_ranges])

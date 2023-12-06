@@ -40,6 +40,6 @@ function seeds_to_locs(seeds, maps)
     locs = seeds
 end
 
-seeds, maps = read_input("day5/input.txt")
+seeds, maps = read_input("day05/input.txt")
 locs = seeds_to_locs(seeds, maps)
 minimum(locs)

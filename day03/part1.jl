@@ -1,4 +1,4 @@
-lines = readlines("day3/input.txt")
+lines = readlines("day03/input.txt")
 
 function is_symbol_adjacent(lines, i, js)
     n = length(lines)

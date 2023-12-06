@@ -26,5 +26,5 @@ function calculate_total_points(lines)
     total_points
 end
 
-lines = readlines("day4/input.txt")
+lines = readlines("day04/input.txt")
 calculate_total_points(lines)

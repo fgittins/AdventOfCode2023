@@ -1,4 +1,4 @@
-lines = readlines("day2/input.txt")
+lines = readlines("day02/input.txt")
 
 poss_ID = 0
 for line in lines

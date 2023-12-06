@@ -1,4 +1,4 @@
-lines = readlines("day3/input.txt")
+lines = readlines("day03/input.txt")
 
 """
 Return a matrix that places the numbers at all the points that the digits appear
